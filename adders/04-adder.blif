@@ -1,0 +1,49 @@
+.model 4-adder
+.inputs a3 a2 a1 b3 b2 b1 a0 b0 cin
+.outputs cout s3 s2 s1 s0
+
+.names cin a0 b0 s0
+001 1
+010 1
+100 1
+111 1
+
+.names cin a0 b0 c0
+11- 1
+1-1 1
+-11 1
+
+.names c0 a1 b1 s1
+001 1
+010 1
+100 1
+111 1
+
+.names c0 a1 b1 c1
+11- 1
+1-1 1
+-11 1
+
+.names c1 a2 b2 s2
+001 1
+010 1
+100 1
+111 1
+
+.names c1 a2 b2 c2
+11- 1
+1-1 1
+-11 1
+
+.names c2 a3 b3 s3
+001 1
+010 1
+100 1
+111 1
+
+.names c2 a3 b3 cout
+11- 1
+1-1 1
+-11 1
+
+.end

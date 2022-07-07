@@ -1,9 +1,10 @@
-## Combinational circuit benchmarks (for testing and experimental purposes)
+# Combinational circuit benchmarks (for testing and experimental purposes)
 
-Files were collected and sampled from https://ddd.fit.cvut.cz/www/prj/Benchmarks/
+Files were collected and sampled from https://ddd.fit.cvut.cz/www/prj/Benchmarks/.
+
 All benchmarks are in BLIF (Berkeley Logic Interchange Format).
 
-# Benchmarks include:
+## Benchmarks include:
 - ISCAS'85 and ISCAS'89
 - ITC'99
 - LGSynth'89 and LGSynth'91

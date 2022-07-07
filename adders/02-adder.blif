@@ -1,0 +1,27 @@
+.model 2-adder
+.inputs a1 b1 a0 b0 cin
+.outputs cout s1 s0
+
+.names cin a0 b0 s0
+001 1
+010 1
+100 1
+111 1
+
+.names cin a0 b0 c0
+11- 1
+1-1 1
+-11 1
+
+.names c0 a1 b1 s1
+001 1
+010 1
+100 1
+111 1
+
+.names c0 a1 b1 cout
+11- 1
+1-1 1
+-11 1
+
+.end

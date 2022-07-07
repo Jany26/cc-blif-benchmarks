@@ -1,0 +1,399 @@
+.model testing
+.inputs A302 A301 A300 A299 A298 A269 A268 A267 A266 A265 A236 A235 A234 \
+ A233 A232 A203 A202 A201 A200 A199 A166 A167 A168 A169 A170
+.outputs A39
+.default_input_arrival 0 0
+.names n_358 A39
+0 1
+.names A202 A203 n_32
+01 1
+.names A200 n_32 n_33
+11 1
+.names A202 A203 n_37
+10 1
+.names A200 n_37 n_38
+01 1
+.names n_33 n_38 n_39
+-1 1
+1- 1
+.names A199 n_39 n_40
+01 1
+.names A202 A203 n_46
+10 1
+.names A199 n_46 n_47
+11 1
+.names A201 n_47 n_48
+-1 1
+1- 1
+.names A200 n_48 n_49
+11 1
+.names A202 A203 n_55
+01 1
+.names A200 n_55 n_56
+01 1
+.names A201 n_56 n_57
+-1 1
+1- 1
+.names A199 n_57 n_58
+11 1
+.names n_49 n_58 n_59
+-1 1
+1- 1
+.names n_40 n_59 n_60
+-1 1
+1- 1
+.names A169 A170 n_66
+-1 1
+1- 1
+.names A168 n_66 n_67
+11 1
+.names A167 n_67 n_68
+01 1
+.names A166 n_68 n_69
+11 1
+.names A166 A167 n_72
+01 1
+.names n_69 n_72 n_73
+-1 1
+1- 1
+.names n_60 n_73 n_74
+11 1
+.names A169 A170 n_81
+00 1
+.names A168 n_81 n_82
+-1 1
+0- 1
+.names A166 n_82 n_83
+-1 1
+0- 1
+.names A167 n_83 n_84
+01 1
+.names A166 A167 n_87
+11 1
+.names n_84 n_87 n_88
+-1 1
+1- 1
+.names A202 A203 n_91
+-0 1
+1- 1
+.names A199 A200 n_94
+01 1
+.names A199 A200 n_97
+10 1
+.names n_94 n_97 n_98
+-1 1
+1- 1
+.names n_91 n_98 n_99
+11 1
+.names A202 A203 n_104
+-1 1
+0- 1
+.names A200 n_104 n_105
+11 1
+.names A199 n_105 n_106
+11 1
+.names n_99 n_106 n_107
+-1 1
+1- 1
+.names n_88 n_107 n_108
+11 1
+.names A201 n_108 n_109
+01 1
+.names A202 A203 n_114
+-1 1
+0- 1
+.names A169 A170 n_120
+00 1
+.names A168 n_120 n_121
+-1 1
+0- 1
+.names A166 n_121 n_122
+-1 1
+0- 1
+.names A167 n_122 n_123
+01 1
+.names A166 A167 n_126
+11 1
+.names n_123 n_126 n_127
+-1 1
+1- 1
+.names n_114 n_127 n_128
+11 1
+.names A200 n_128 n_129
+01 1
+.names A199 n_129 n_130
+01 1
+.names A268 A269 n_135
+01 1
+.names A266 n_135 n_136
+11 1
+.names A268 A269 n_140
+10 1
+.names A266 n_140 n_141
+01 1
+.names n_136 n_141 n_142
+-1 1
+1- 1
+.names A265 n_142 n_143
+01 1
+.names A268 A269 n_149
+10 1
+.names A265 n_149 n_150
+11 1
+.names A267 n_150 n_151
+-1 1
+1- 1
+.names A266 n_151 n_152
+11 1
+.names A268 A269 n_158
+01 1
+.names A266 n_158 n_159
+01 1
+.names A267 n_159 n_160
+-1 1
+1- 1
+.names A265 n_160 n_161
+11 1
+.names A301 A302 n_165
+-0 1
+1- 1
+.names A298 A299 n_168
+01 1
+.names A298 A299 n_171
+10 1
+.names n_168 n_171 n_172
+-1 1
+1- 1
+.names n_165 n_172 n_173
+11 1
+.names A301 A302 n_178
+-1 1
+0- 1
+.names A299 n_178 n_179
+11 1
+.names A298 n_179 n_180
+11 1
+.names n_173 n_180 n_181
+-1 1
+1- 1
+.names A300 n_181 n_182
+01 1
+.names A301 A302 n_187
+-1 1
+0- 1
+.names A299 n_187 n_188
+01 1
+.names A298 n_188 n_189
+01 1
+.names n_182 n_189 n_190
+-1 1
+1- 1
+.names n_161 n_190 n_191
+-1 1
+1- 1
+.names n_152 n_191 n_192
+-1 1
+1- 1
+.names n_143 n_192 n_193
+-1 1
+1- 1
+.names A235 A236 n_197
+-0 1
+1- 1
+.names A232 A233 n_200
+01 1
+.names A232 A233 n_203
+10 1
+.names n_200 n_203 n_204
+-1 1
+1- 1
+.names n_197 n_204 n_205
+11 1
+.names A235 A236 n_210
+-1 1
+0- 1
+.names A233 n_210 n_211
+11 1
+.names A232 n_211 n_212
+11 1
+.names n_205 n_212 n_213
+-1 1
+1- 1
+.names A234 n_213 n_214
+01 1
+.names A235 A236 n_219
+-1 1
+0- 1
+.names A233 n_219 n_220
+01 1
+.names A232 n_220 n_221
+01 1
+.names n_214 n_221 n_222
+-1 1
+1- 1
+.names n_193 n_222 n_223
+11 1
+.names A301 A302 n_228
+01 1
+.names A299 n_228 n_229
+11 1
+.names A301 A302 n_233
+10 1
+.names A299 n_233 n_234
+01 1
+.names n_229 n_234 n_235
+-1 1
+1- 1
+.names A298 n_235 n_236
+01 1
+.names A301 A302 n_242
+10 1
+.names A298 n_242 n_243
+11 1
+.names A300 n_243 n_244
+-1 1
+1- 1
+.names A299 n_244 n_245
+11 1
+.names A301 A302 n_251
+01 1
+.names A299 n_251 n_252
+01 1
+.names A300 n_252 n_253
+-1 1
+1- 1
+.names A298 n_253 n_254
+11 1
+.names n_245 n_254 n_255
+-1 1
+1- 1
+.names n_236 n_255 n_256
+-1 1
+1- 1
+.names A235 A236 n_262
+01 1
+.names A233 n_262 n_263
+11 1
+.names A235 A236 n_267
+10 1
+.names A233 n_267 n_268
+01 1
+.names n_263 n_268 n_269
+-1 1
+1- 1
+.names A232 n_269 n_270
+01 1
+.names A235 A236 n_276
+10 1
+.names A232 n_276 n_277
+11 1
+.names A234 n_277 n_278
+-1 1
+1- 1
+.names A233 n_278 n_279
+11 1
+.names A235 A236 n_285
+01 1
+.names A233 n_285 n_286
+01 1
+.names A234 n_286 n_287
+-1 1
+1- 1
+.names A232 n_287 n_288
+11 1
+.names n_279 n_288 n_289
+-1 1
+1- 1
+.names n_270 n_289 n_290
+-1 1
+1- 1
+.names A268 A269 n_293
+-0 1
+1- 1
+.names A265 A266 n_296
+01 1
+.names A265 A266 n_299
+10 1
+.names n_296 n_299 n_300
+-1 1
+1- 1
+.names n_293 n_300 n_301
+11 1
+.names A268 A269 n_306
+-1 1
+0- 1
+.names A266 n_306 n_307
+11 1
+.names A265 n_307 n_308
+11 1
+.names n_301 n_308 n_309
+-1 1
+1- 1
+.names n_290 n_309 n_310
+11 1
+.names A267 n_310 n_311
+01 1
+.names A268 A269 n_316
+-1 1
+0- 1
+.names A235 A236 n_321
+01 1
+.names A233 n_321 n_322
+11 1
+.names A235 A236 n_326
+10 1
+.names A233 n_326 n_327
+01 1
+.names n_322 n_327 n_328
+-1 1
+1- 1
+.names A232 n_328 n_329
+01 1
+.names A235 A236 n_335
+10 1
+.names A232 n_335 n_336
+11 1
+.names A234 n_336 n_337
+-1 1
+1- 1
+.names A233 n_337 n_338
+11 1
+.names A235 A236 n_344
+01 1
+.names A233 n_344 n_345
+01 1
+.names A234 n_345 n_346
+-1 1
+1- 1
+.names A232 n_346 n_347
+11 1
+.names n_338 n_347 n_348
+-1 1
+1- 1
+.names n_329 n_348 n_349
+-1 1
+1- 1
+.names n_316 n_349 n_350
+11 1
+.names A266 n_350 n_351
+01 1
+.names A265 n_351 n_352
+01 1
+.names n_311 n_352 n_353
+-1 1
+1- 1
+.names n_256 n_353 n_354
+11 1
+.names n_223 n_354 n_355
+-1 1
+1- 1
+.names n_130 n_355 n_356
+-1 1
+1- 1
+.names n_109 n_356 n_357
+-1 1
+1- 1
+.names n_74 n_357 n_358
+-1 1
+1- 1
+.end

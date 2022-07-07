@@ -1,0 +1,31 @@
+# Benchmark "2-adder" written by ABC on Sun Mar 15 20:33:11 2009
+.model 2-adder
+.inputs a1 b1 a0 b0 cin
+.outputs cout s1 s0
+.names a1 b1 a0 b0 cin cout
+11--- 1
+1-11- 1
+1-1-1 1
+1--11 1
+-111- 1
+-11-1 1
+-1-11 1
+.names a1 b1 a0 b0 cin s1
+0011- 1
+001-1 1
+00-11 1
+0100- 1
+010-0 1
+01-00 1
+1000- 1
+100-0 1
+10-00 1
+1111- 1
+111-1 1
+11-11 1
+.names a0 b0 cin s0
+001 1
+010 1
+100 1
+111 1
+.end

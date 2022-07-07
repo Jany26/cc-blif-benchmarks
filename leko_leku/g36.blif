@@ -1,0 +1,1865 @@
+.model testing
+.inputs A743 A742 A741 A740 A739 A738 A676 A675 A674 A673 A672 A671 A609 A608 A607 A606 A605 A604 A542 A541 A540 A539 A538 A537 A475 A474 A473 A472 A471 A470 A403 A404 A405 A406 A407 A408
+.outputs A347 A346 A345 A344 A343 A342 A280 A279 A278 A277 A276 A275 A213 A212 A211 A210 A209 A208 A146 A145 A144 A143 A142 A141 A79 A78 A77 A76 A75 A74 A7 A8 A9 A10 A11 A12
+.names A408 A422 A469
+01 1
+.names A408 A422 A468
+10 1
+.names A408 A422 A467
+10 1
+.names A408 A422 A466
+00 1
+.names A408 A422 A465
+11 1
+.names A468 A469 A464
+1- 1
+-1 1
+.names A408 A422 A463
+01 1
+.names A466 A467 A462
+1- 1
+-1 1
+.names A437 A457 A461
+00 1
+.names A437 A457 A460
+11 1
+.names A404 A429 A459
+0- 1
+-0 1
+.names A422 A459 A458
+11 1
+.names A405 A406 A457
+1- 1
+-1 1
+.names A405 A422 A456
+1- 1
+-1 1
+.names A422 A458 A455
+00 1
+.names A422 A459 A454
+1- 1
+-1 1
+.names A405 A406 A453
+10 1
+.names A405 A406 A452
+01 1
+.names A415 A448 A451
+1- 1
+-1 1
+.names A415 A449 A450
+00 1
+.names A415 A448 A449
+11 1
+.names A404 A429 A448
+0- 1
+-0 1
+.names A405 A415 A447
+01 1
+.names A405 A415 A446
+10 1
+.names A407 A444 A445
+11 1
+.names A463 A462 A444
+1- 1
+-1 1
+.names A407 A442 A443
+01 1
+.names A465 A464 A442
+1- 1
+-1 1
+.names A407 A440 A441
+1- 1
+-1 1
+.names A461 A460 A440
+1- 1
+-1 1
+.names A419 A429 A439
+00 1
+.names A419 A429 A438
+11 1
+.names A419 A429 A437
+0- 1
+-1 1
+.names A403 A404 A436
+10 1
+.names A403 A404 A435
+01 1
+.names A456 A457 A434
+10 1
+.names A456 A457 A433
+01 1
+.names A455 A454 A432
+0- 1
+-0 1
+.names A447 A446 A431
+1- 1
+-1 1
+.names A453 A452 A430
+1- 1
+-1 1
+.names A443 A445 A429
+1- 1
+-1 1
+.names A450 A451 A428
+0- 1
+-0 1
+.names A403 A404 A427
+10 1
+.names A417 A429 A426
+10 1
+.names A417 A429 A425
+01 1
+.names A415 A441 A424
+01 1
+.names A439 A438 A423
+1- 1
+-1 1
+.names A436 A435 A422
+1- 1
+-1 1
+.names A404 A437 A421
+1- 1
+-1 1
+.names A429 A432 A420
+11 1
+.names A434 A433 A419
+1- 1
+-1 1
+.names A429 A428 A418
+11 1
+.names A431 A430 A417
+11 1
+.names A426 A425 A416
+1- 1
+-1 1
+.names A404 A427 A415
+1- 1
+-1 1
+.names A415 A424 A414
+1- 1
+-1 1
+.names A422 A423 A413
+11 1
+.names A422 A421 A412
+11 1
+.names A420 A419 A411
+1- 1
+-1 1
+.names A418 A417 A410
+1- 1
+-1 1
+.names A416 A415 A409
+11 1
+.names A483 A482 A476
+11 1
+.names A485 A484 A477
+1- 1
+-1 1
+.names A487 A486 A478
+1- 1
+-1 1
+.names A489 A488 A479
+11 1
+.names A489 A490 A480
+11 1
+.names A482 A491 A481
+1- 1
+-1 1
+.names A471 A494 A482
+1- 1
+-1 1
+.names A493 A492 A483
+1- 1
+-1 1
+.names A498 A497 A484
+11 1
+.names A496 A495 A485
+11 1
+.names A501 A500 A486
+1- 1
+-1 1
+.names A496 A499 A487
+11 1
+.names A471 A504 A488
+1- 1
+-1 1
+.names A503 A502 A489
+1- 1
+-1 1
+.names A506 A505 A490
+1- 1
+-1 1
+.names A482 A508 A491
+01 1
+.names A484 A496 A492
+01 1
+.names A484 A496 A493
+10 1
+.names A470 A471 A494
+10 1
+.names A517 A518 A495
+0- 1
+-0 1
+.names A510 A512 A496
+1- 1
+-1 1
+.names A520 A519 A497
+1- 1
+-1 1
+.names A514 A513 A498
+1- 1
+-1 1
+.names A522 A521 A499
+0- 1
+-0 1
+.names A523 A524 A500
+01 1
+.names A523 A524 A501
+10 1
+.names A470 A471 A502
+01 1
+.names A470 A471 A503
+10 1
+.names A486 A496 A504
+0- 1
+-1 1
+.names A486 A496 A505
+11 1
+.names A486 A496 A506
+00 1
+.names A528 A527 A507
+1- 1
+-1 1
+.names A474 A507 A508
+1- 1
+-1 1
+.names A532 A531 A509
+1- 1
+-1 1
+.names A474 A509 A510
+01 1
+.names A530 A529 A511
+1- 1
+-1 1
+.names A474 A511 A512
+11 1
+.names A472 A482 A513
+10 1
+.names A472 A482 A514
+01 1
+.names A471 A496 A515
+0- 1
+-0 1
+.names A482 A515 A516
+11 1
+.names A482 A516 A517
+00 1
+.names A482 A515 A518
+1- 1
+-1 1
+.names A472 A473 A519
+01 1
+.names A472 A473 A520
+10 1
+.names A489 A526 A521
+1- 1
+-1 1
+.names A489 A525 A522
+00 1
+.names A472 A489 A523
+1- 1
+-1 1
+.names A472 A473 A524
+1- 1
+-1 1
+.names A489 A526 A525
+11 1
+.names A471 A496 A526
+0- 1
+-0 1
+.names A504 A524 A527
+11 1
+.names A504 A524 A528
+00 1
+.names A533 A534 A529
+1- 1
+-1 1
+.names A475 A489 A530
+01 1
+.names A535 A536 A531
+1- 1
+-1 1
+.names A475 A489 A532
+11 1
+.names A475 A489 A533
+00 1
+.names A475 A489 A534
+10 1
+.names A475 A489 A535
+10 1
+.names A475 A489 A536
+01 1
+.names A550 A549 A543
+11 1
+.names A552 A551 A544
+1- 1
+-1 1
+.names A554 A553 A545
+1- 1
+-1 1
+.names A556 A555 A546
+11 1
+.names A556 A557 A547
+11 1
+.names A549 A558 A548
+1- 1
+-1 1
+.names A538 A561 A549
+1- 1
+-1 1
+.names A560 A559 A550
+1- 1
+-1 1
+.names A565 A564 A551
+11 1
+.names A563 A562 A552
+11 1
+.names A568 A567 A553
+1- 1
+-1 1
+.names A563 A566 A554
+11 1
+.names A538 A571 A555
+1- 1
+-1 1
+.names A570 A569 A556
+1- 1
+-1 1
+.names A573 A572 A557
+1- 1
+-1 1
+.names A549 A575 A558
+01 1
+.names A551 A563 A559
+01 1
+.names A551 A563 A560
+10 1
+.names A537 A538 A561
+10 1
+.names A584 A585 A562
+0- 1
+-0 1
+.names A577 A579 A563
+1- 1
+-1 1
+.names A587 A586 A564
+1- 1
+-1 1
+.names A581 A580 A565
+1- 1
+-1 1
+.names A589 A588 A566
+0- 1
+-0 1
+.names A590 A591 A567
+01 1
+.names A590 A591 A568
+10 1
+.names A537 A538 A569
+01 1
+.names A537 A538 A570
+10 1
+.names A553 A563 A571
+0- 1
+-1 1
+.names A553 A563 A572
+11 1
+.names A553 A563 A573
+00 1
+.names A595 A594 A574
+1- 1
+-1 1
+.names A541 A574 A575
+1- 1
+-1 1
+.names A599 A598 A576
+1- 1
+-1 1
+.names A541 A576 A577
+01 1
+.names A597 A596 A578
+1- 1
+-1 1
+.names A541 A578 A579
+11 1
+.names A539 A549 A580
+10 1
+.names A539 A549 A581
+01 1
+.names A538 A563 A582
+0- 1
+-0 1
+.names A549 A582 A583
+11 1
+.names A549 A583 A584
+00 1
+.names A549 A582 A585
+1- 1
+-1 1
+.names A539 A540 A586
+01 1
+.names A539 A540 A587
+10 1
+.names A556 A593 A588
+1- 1
+-1 1
+.names A556 A592 A589
+00 1
+.names A539 A556 A590
+1- 1
+-1 1
+.names A539 A540 A591
+1- 1
+-1 1
+.names A556 A593 A592
+11 1
+.names A538 A563 A593
+0- 1
+-0 1
+.names A571 A591 A594
+11 1
+.names A571 A591 A595
+00 1
+.names A600 A601 A596
+1- 1
+-1 1
+.names A542 A556 A597
+01 1
+.names A602 A603 A598
+1- 1
+-1 1
+.names A542 A556 A599
+11 1
+.names A542 A556 A600
+00 1
+.names A542 A556 A601
+10 1
+.names A542 A556 A602
+10 1
+.names A542 A556 A603
+01 1
+.names A617 A616 A610
+11 1
+.names A619 A618 A611
+1- 1
+-1 1
+.names A621 A620 A612
+1- 1
+-1 1
+.names A623 A622 A613
+11 1
+.names A623 A624 A614
+11 1
+.names A616 A625 A615
+1- 1
+-1 1
+.names A605 A628 A616
+1- 1
+-1 1
+.names A627 A626 A617
+1- 1
+-1 1
+.names A632 A631 A618
+11 1
+.names A630 A629 A619
+11 1
+.names A635 A634 A620
+1- 1
+-1 1
+.names A630 A633 A621
+11 1
+.names A605 A638 A622
+1- 1
+-1 1
+.names A637 A636 A623
+1- 1
+-1 1
+.names A640 A639 A624
+1- 1
+-1 1
+.names A616 A642 A625
+01 1
+.names A618 A630 A626
+01 1
+.names A618 A630 A627
+10 1
+.names A604 A605 A628
+10 1
+.names A651 A652 A629
+0- 1
+-0 1
+.names A644 A646 A630
+1- 1
+-1 1
+.names A654 A653 A631
+1- 1
+-1 1
+.names A648 A647 A632
+1- 1
+-1 1
+.names A656 A655 A633
+0- 1
+-0 1
+.names A657 A658 A634
+01 1
+.names A657 A658 A635
+10 1
+.names A604 A605 A636
+01 1
+.names A604 A605 A637
+10 1
+.names A620 A630 A638
+0- 1
+-1 1
+.names A620 A630 A639
+11 1
+.names A620 A630 A640
+00 1
+.names A662 A661 A641
+1- 1
+-1 1
+.names A608 A641 A642
+1- 1
+-1 1
+.names A666 A665 A643
+1- 1
+-1 1
+.names A608 A643 A644
+01 1
+.names A664 A663 A645
+1- 1
+-1 1
+.names A608 A645 A646
+11 1
+.names A606 A616 A647
+10 1
+.names A606 A616 A648
+01 1
+.names A605 A630 A649
+0- 1
+-0 1
+.names A616 A649 A650
+11 1
+.names A616 A650 A651
+00 1
+.names A616 A649 A652
+1- 1
+-1 1
+.names A606 A607 A653
+01 1
+.names A606 A607 A654
+10 1
+.names A623 A660 A655
+1- 1
+-1 1
+.names A623 A659 A656
+00 1
+.names A606 A623 A657
+1- 1
+-1 1
+.names A606 A607 A658
+1- 1
+-1 1
+.names A623 A660 A659
+11 1
+.names A605 A630 A660
+0- 1
+-0 1
+.names A638 A658 A661
+11 1
+.names A638 A658 A662
+00 1
+.names A667 A668 A663
+1- 1
+-1 1
+.names A609 A623 A664
+01 1
+.names A669 A670 A665
+1- 1
+-1 1
+.names A609 A623 A666
+11 1
+.names A609 A623 A667
+00 1
+.names A609 A623 A668
+10 1
+.names A609 A623 A669
+10 1
+.names A609 A623 A670
+01 1
+.names A684 A683 A677
+11 1
+.names A686 A685 A678
+1- 1
+-1 1
+.names A688 A687 A679
+1- 1
+-1 1
+.names A690 A689 A680
+11 1
+.names A690 A691 A681
+11 1
+.names A683 A692 A682
+1- 1
+-1 1
+.names A672 A695 A683
+1- 1
+-1 1
+.names A694 A693 A684
+1- 1
+-1 1
+.names A699 A698 A685
+11 1
+.names A697 A696 A686
+11 1
+.names A702 A701 A687
+1- 1
+-1 1
+.names A697 A700 A688
+11 1
+.names A672 A705 A689
+1- 1
+-1 1
+.names A704 A703 A690
+1- 1
+-1 1
+.names A707 A706 A691
+1- 1
+-1 1
+.names A683 A709 A692
+01 1
+.names A685 A697 A693
+01 1
+.names A685 A697 A694
+10 1
+.names A671 A672 A695
+10 1
+.names A718 A719 A696
+0- 1
+-0 1
+.names A711 A713 A697
+1- 1
+-1 1
+.names A721 A720 A698
+1- 1
+-1 1
+.names A715 A714 A699
+1- 1
+-1 1
+.names A723 A722 A700
+0- 1
+-0 1
+.names A724 A725 A701
+01 1
+.names A724 A725 A702
+10 1
+.names A671 A672 A703
+01 1
+.names A671 A672 A704
+10 1
+.names A687 A697 A705
+0- 1
+-1 1
+.names A687 A697 A706
+11 1
+.names A687 A697 A707
+00 1
+.names A729 A728 A708
+1- 1
+-1 1
+.names A675 A708 A709
+1- 1
+-1 1
+.names A733 A732 A710
+1- 1
+-1 1
+.names A675 A710 A711
+01 1
+.names A731 A730 A712
+1- 1
+-1 1
+.names A675 A712 A713
+11 1
+.names A673 A683 A714
+10 1
+.names A673 A683 A715
+01 1
+.names A672 A697 A716
+0- 1
+-0 1
+.names A683 A716 A717
+11 1
+.names A683 A717 A718
+00 1
+.names A683 A716 A719
+1- 1
+-1 1
+.names A673 A674 A720
+01 1
+.names A673 A674 A721
+10 1
+.names A690 A727 A722
+1- 1
+-1 1
+.names A690 A726 A723
+00 1
+.names A673 A690 A724
+1- 1
+-1 1
+.names A673 A674 A725
+1- 1
+-1 1
+.names A690 A727 A726
+11 1
+.names A672 A697 A727
+0- 1
+-0 1
+.names A705 A725 A728
+11 1
+.names A705 A725 A729
+00 1
+.names A734 A735 A730
+1- 1
+-1 1
+.names A676 A690 A731
+01 1
+.names A736 A737 A732
+1- 1
+-1 1
+.names A676 A690 A733
+11 1
+.names A676 A690 A734
+00 1
+.names A676 A690 A735
+10 1
+.names A676 A690 A736
+10 1
+.names A676 A690 A737
+01 1
+.names A751 A750 A744
+11 1
+.names A753 A752 A745
+1- 1
+-1 1
+.names A755 A754 A746
+1- 1
+-1 1
+.names A757 A756 A747
+11 1
+.names A757 A758 A748
+11 1
+.names A750 A759 A749
+1- 1
+-1 1
+.names A739 A762 A750
+1- 1
+-1 1
+.names A761 A760 A751
+1- 1
+-1 1
+.names A766 A765 A752
+11 1
+.names A764 A763 A753
+11 1
+.names A769 A768 A754
+1- 1
+-1 1
+.names A764 A767 A755
+11 1
+.names A739 A772 A756
+1- 1
+-1 1
+.names A771 A770 A757
+1- 1
+-1 1
+.names A774 A773 A758
+1- 1
+-1 1
+.names A750 A776 A759
+01 1
+.names A752 A764 A760
+01 1
+.names A752 A764 A761
+10 1
+.names A738 A739 A762
+10 1
+.names A785 A786 A763
+0- 1
+-0 1
+.names A778 A780 A764
+1- 1
+-1 1
+.names A788 A787 A765
+1- 1
+-1 1
+.names A782 A781 A766
+1- 1
+-1 1
+.names A790 A789 A767
+0- 1
+-0 1
+.names A791 A792 A768
+01 1
+.names A791 A792 A769
+10 1
+.names A738 A739 A770
+01 1
+.names A738 A739 A771
+10 1
+.names A754 A764 A772
+0- 1
+-1 1
+.names A754 A764 A773
+11 1
+.names A754 A764 A774
+00 1
+.names A796 A795 A775
+1- 1
+-1 1
+.names A742 A775 A776
+1- 1
+-1 1
+.names A800 A799 A777
+1- 1
+-1 1
+.names A742 A777 A778
+01 1
+.names A798 A797 A779
+1- 1
+-1 1
+.names A742 A779 A780
+11 1
+.names A740 A750 A781
+10 1
+.names A740 A750 A782
+01 1
+.names A739 A764 A783
+0- 1
+-0 1
+.names A750 A783 A784
+11 1
+.names A750 A784 A785
+00 1
+.names A750 A783 A786
+1- 1
+-1 1
+.names A740 A741 A787
+01 1
+.names A740 A741 A788
+10 1
+.names A757 A794 A789
+1- 1
+-1 1
+.names A757 A793 A790
+00 1
+.names A740 A757 A791
+1- 1
+-1 1
+.names A740 A741 A792
+1- 1
+-1 1
+.names A757 A794 A793
+11 1
+.names A739 A764 A794
+0- 1
+-0 1
+.names A772 A792 A795
+11 1
+.names A772 A792 A796
+00 1
+.names A801 A802 A797
+1- 1
+-1 1
+.names A743 A757 A798
+01 1
+.names A803 A804 A799
+1- 1
+-1 1
+.names A743 A757 A800
+11 1
+.names A743 A757 A801
+00 1
+.names A743 A757 A802
+10 1
+.names A743 A757 A803
+10 1
+.names A743 A757 A804
+01 1
+.names A341 A355 A402
+01 1
+.names A341 A355 A401
+10 1
+.names A341 A355 A400
+10 1
+.names A341 A355 A399
+00 1
+.names A341 A355 A398
+11 1
+.names A401 A402 A397
+1- 1
+-1 1
+.names A341 A355 A396
+01 1
+.names A399 A400 A395
+1- 1
+-1 1
+.names A370 A390 A394
+00 1
+.names A370 A390 A393
+11 1
+.names A337 A362 A392
+0- 1
+-0 1
+.names A355 A392 A391
+11 1
+.names A338 A339 A390
+1- 1
+-1 1
+.names A338 A355 A389
+1- 1
+-1 1
+.names A355 A391 A388
+00 1
+.names A355 A392 A387
+1- 1
+-1 1
+.names A338 A339 A386
+10 1
+.names A338 A339 A385
+01 1
+.names A348 A381 A384
+1- 1
+-1 1
+.names A348 A382 A383
+00 1
+.names A348 A381 A382
+11 1
+.names A337 A362 A381
+0- 1
+-0 1
+.names A338 A348 A380
+01 1
+.names A338 A348 A379
+10 1
+.names A340 A377 A378
+11 1
+.names A396 A395 A377
+1- 1
+-1 1
+.names A340 A375 A376
+01 1
+.names A398 A397 A375
+1- 1
+-1 1
+.names A340 A373 A374
+1- 1
+-1 1
+.names A394 A393 A373
+1- 1
+-1 1
+.names A352 A362 A372
+00 1
+.names A352 A362 A371
+11 1
+.names A352 A362 A370
+0- 1
+-1 1
+.names A336 A337 A369
+10 1
+.names A336 A337 A368
+01 1
+.names A389 A390 A367
+10 1
+.names A389 A390 A366
+01 1
+.names A388 A387 A365
+0- 1
+-0 1
+.names A380 A379 A364
+1- 1
+-1 1
+.names A386 A385 A363
+1- 1
+-1 1
+.names A376 A378 A362
+1- 1
+-1 1
+.names A383 A384 A361
+0- 1
+-0 1
+.names A336 A337 A360
+10 1
+.names A350 A362 A359
+10 1
+.names A350 A362 A358
+01 1
+.names A348 A374 A357
+01 1
+.names A372 A371 A356
+1- 1
+-1 1
+.names A369 A368 A355
+1- 1
+-1 1
+.names A337 A370 A354
+1- 1
+-1 1
+.names A362 A365 A353
+11 1
+.names A367 A366 A352
+1- 1
+-1 1
+.names A362 A361 A351
+11 1
+.names A364 A363 A350
+11 1
+.names A359 A358 A349
+1- 1
+-1 1
+.names A337 A360 A348
+1- 1
+-1 1
+.names A348 A357 A347
+1- 1
+-1 1
+.names A355 A356 A346
+11 1
+.names A355 A354 A345
+11 1
+.names A353 A352 A344
+1- 1
+-1 1
+.names A351 A350 A343
+1- 1
+-1 1
+.names A349 A348 A342
+11 1
+.names A749  A341
+1 1
+.names A682  A340
+1 1
+.names A615  A339
+1 1
+.names A548  A338
+1 1
+.names A481  A337
+1 1
+.names A409  A336
+1 1
+.names A274 A288 A335
+01 1
+.names A274 A288 A334
+10 1
+.names A274 A288 A333
+10 1
+.names A274 A288 A332
+00 1
+.names A274 A288 A331
+11 1
+.names A334 A335 A330
+1- 1
+-1 1
+.names A274 A288 A329
+01 1
+.names A332 A333 A328
+1- 1
+-1 1
+.names A303 A323 A327
+00 1
+.names A303 A323 A326
+11 1
+.names A270 A295 A325
+0- 1
+-0 1
+.names A288 A325 A324
+11 1
+.names A271 A272 A323
+1- 1
+-1 1
+.names A271 A288 A322
+1- 1
+-1 1
+.names A288 A324 A321
+00 1
+.names A288 A325 A320
+1- 1
+-1 1
+.names A271 A272 A319
+10 1
+.names A271 A272 A318
+01 1
+.names A281 A314 A317
+1- 1
+-1 1
+.names A281 A315 A316
+00 1
+.names A281 A314 A315
+11 1
+.names A270 A295 A314
+0- 1
+-0 1
+.names A271 A281 A313
+01 1
+.names A271 A281 A312
+10 1
+.names A273 A310 A311
+11 1
+.names A329 A328 A310
+1- 1
+-1 1
+.names A273 A308 A309
+01 1
+.names A331 A330 A308
+1- 1
+-1 1
+.names A273 A306 A307
+1- 1
+-1 1
+.names A327 A326 A306
+1- 1
+-1 1
+.names A285 A295 A305
+00 1
+.names A285 A295 A304
+11 1
+.names A285 A295 A303
+0- 1
+-1 1
+.names A269 A270 A302
+10 1
+.names A269 A270 A301
+01 1
+.names A322 A323 A300
+10 1
+.names A322 A323 A299
+01 1
+.names A321 A320 A298
+0- 1
+-0 1
+.names A313 A312 A297
+1- 1
+-1 1
+.names A319 A318 A296
+1- 1
+-1 1
+.names A309 A311 A295
+1- 1
+-1 1
+.names A316 A317 A294
+0- 1
+-0 1
+.names A269 A270 A293
+10 1
+.names A283 A295 A292
+10 1
+.names A283 A295 A291
+01 1
+.names A281 A307 A290
+01 1
+.names A305 A304 A289
+1- 1
+-1 1
+.names A302 A301 A288
+1- 1
+-1 1
+.names A270 A303 A287
+1- 1
+-1 1
+.names A295 A298 A286
+11 1
+.names A300 A299 A285
+1- 1
+-1 1
+.names A295 A294 A284
+11 1
+.names A297 A296 A283
+11 1
+.names A292 A291 A282
+1- 1
+-1 1
+.names A270 A293 A281
+1- 1
+-1 1
+.names A281 A290 A280
+1- 1
+-1 1
+.names A288 A289 A279
+11 1
+.names A288 A287 A278
+11 1
+.names A286 A285 A277
+1- 1
+-1 1
+.names A284 A283 A276
+1- 1
+-1 1
+.names A282 A281 A275
+11 1
+.names A748  A274
+1 1
+.names A681  A273
+1 1
+.names A614  A272
+1 1
+.names A547  A271
+1 1
+.names A480  A270
+1 1
+.names A410  A269
+1 1
+.names A207 A221 A268
+01 1
+.names A207 A221 A267
+10 1
+.names A207 A221 A266
+10 1
+.names A207 A221 A265
+00 1
+.names A207 A221 A264
+11 1
+.names A267 A268 A263
+1- 1
+-1 1
+.names A207 A221 A262
+01 1
+.names A265 A266 A261
+1- 1
+-1 1
+.names A236 A256 A260
+00 1
+.names A236 A256 A259
+11 1
+.names A203 A228 A258
+0- 1
+-0 1
+.names A221 A258 A257
+11 1
+.names A204 A205 A256
+1- 1
+-1 1
+.names A204 A221 A255
+1- 1
+-1 1
+.names A221 A257 A254
+00 1
+.names A221 A258 A253
+1- 1
+-1 1
+.names A204 A205 A252
+10 1
+.names A204 A205 A251
+01 1
+.names A214 A247 A250
+1- 1
+-1 1
+.names A214 A248 A249
+00 1
+.names A214 A247 A248
+11 1
+.names A203 A228 A247
+0- 1
+-0 1
+.names A204 A214 A246
+01 1
+.names A204 A214 A245
+10 1
+.names A206 A243 A244
+11 1
+.names A262 A261 A243
+1- 1
+-1 1
+.names A206 A241 A242
+01 1
+.names A264 A263 A241
+1- 1
+-1 1
+.names A206 A239 A240
+1- 1
+-1 1
+.names A260 A259 A239
+1- 1
+-1 1
+.names A218 A228 A238
+00 1
+.names A218 A228 A237
+11 1
+.names A218 A228 A236
+0- 1
+-1 1
+.names A202 A203 A235
+10 1
+.names A202 A203 A234
+01 1
+.names A255 A256 A233
+10 1
+.names A255 A256 A232
+01 1
+.names A254 A253 A231
+0- 1
+-0 1
+.names A246 A245 A230
+1- 1
+-1 1
+.names A252 A251 A229
+1- 1
+-1 1
+.names A242 A244 A228
+1- 1
+-1 1
+.names A249 A250 A227
+0- 1
+-0 1
+.names A202 A203 A226
+10 1
+.names A216 A228 A225
+10 1
+.names A216 A228 A224
+01 1
+.names A214 A240 A223
+01 1
+.names A238 A237 A222
+1- 1
+-1 1
+.names A235 A234 A221
+1- 1
+-1 1
+.names A203 A236 A220
+1- 1
+-1 1
+.names A228 A231 A219
+11 1
+.names A233 A232 A218
+1- 1
+-1 1
+.names A228 A227 A217
+11 1
+.names A230 A229 A216
+11 1
+.names A225 A224 A215
+1- 1
+-1 1
+.names A203 A226 A214
+1- 1
+-1 1
+.names A214 A223 A213
+1- 1
+-1 1
+.names A221 A222 A212
+11 1
+.names A221 A220 A211
+11 1
+.names A219 A218 A210
+1- 1
+-1 1
+.names A217 A216 A209
+1- 1
+-1 1
+.names A215 A214 A208
+11 1
+.names A747  A207
+1 1
+.names A680  A206
+1 1
+.names A613  A205
+1 1
+.names A546  A204
+1 1
+.names A479  A203
+1 1
+.names A411  A202
+1 1
+.names A140 A154 A201
+01 1
+.names A140 A154 A200
+10 1
+.names A140 A154 A199
+10 1
+.names A140 A154 A198
+00 1
+.names A140 A154 A197
+11 1
+.names A200 A201 A196
+1- 1
+-1 1
+.names A140 A154 A195
+01 1
+.names A198 A199 A194
+1- 1
+-1 1
+.names A169 A189 A193
+00 1
+.names A169 A189 A192
+11 1
+.names A136 A161 A191
+0- 1
+-0 1
+.names A154 A191 A190
+11 1
+.names A137 A138 A189
+1- 1
+-1 1
+.names A137 A154 A188
+1- 1
+-1 1
+.names A154 A190 A187
+00 1
+.names A154 A191 A186
+1- 1
+-1 1
+.names A137 A138 A185
+10 1
+.names A137 A138 A184
+01 1
+.names A147 A180 A183
+1- 1
+-1 1
+.names A147 A181 A182
+00 1
+.names A147 A180 A181
+11 1
+.names A136 A161 A180
+0- 1
+-0 1
+.names A137 A147 A179
+01 1
+.names A137 A147 A178
+10 1
+.names A139 A176 A177
+11 1
+.names A195 A194 A176
+1- 1
+-1 1
+.names A139 A174 A175
+01 1
+.names A197 A196 A174
+1- 1
+-1 1
+.names A139 A172 A173
+1- 1
+-1 1
+.names A193 A192 A172
+1- 1
+-1 1
+.names A151 A161 A171
+00 1
+.names A151 A161 A170
+11 1
+.names A151 A161 A169
+0- 1
+-1 1
+.names A135 A136 A168
+10 1
+.names A135 A136 A167
+01 1
+.names A188 A189 A166
+10 1
+.names A188 A189 A165
+01 1
+.names A187 A186 A164
+0- 1
+-0 1
+.names A179 A178 A163
+1- 1
+-1 1
+.names A185 A184 A162
+1- 1
+-1 1
+.names A175 A177 A161
+1- 1
+-1 1
+.names A182 A183 A160
+0- 1
+-0 1
+.names A135 A136 A159
+10 1
+.names A149 A161 A158
+10 1
+.names A149 A161 A157
+01 1
+.names A147 A173 A156
+01 1
+.names A171 A170 A155
+1- 1
+-1 1
+.names A168 A167 A154
+1- 1
+-1 1
+.names A136 A169 A153
+1- 1
+-1 1
+.names A161 A164 A152
+11 1
+.names A166 A165 A151
+1- 1
+-1 1
+.names A161 A160 A150
+11 1
+.names A163 A162 A149
+11 1
+.names A158 A157 A148
+1- 1
+-1 1
+.names A136 A159 A147
+1- 1
+-1 1
+.names A147 A156 A146
+1- 1
+-1 1
+.names A154 A155 A145
+11 1
+.names A154 A153 A144
+11 1
+.names A152 A151 A143
+1- 1
+-1 1
+.names A150 A149 A142
+1- 1
+-1 1
+.names A148 A147 A141
+11 1
+.names A746  A140
+1 1
+.names A679  A139
+1 1
+.names A612  A138
+1 1
+.names A545  A137
+1 1
+.names A478  A136
+1 1
+.names A412  A135
+1 1
+.names A73 A87 A134
+01 1
+.names A73 A87 A133
+10 1
+.names A73 A87 A132
+10 1
+.names A73 A87 A131
+00 1
+.names A73 A87 A130
+11 1
+.names A133 A134 A129
+1- 1
+-1 1
+.names A73 A87 A128
+01 1
+.names A131 A132 A127
+1- 1
+-1 1
+.names A102 A122 A126
+00 1
+.names A102 A122 A125
+11 1
+.names A69 A94 A124
+0- 1
+-0 1
+.names A87 A124 A123
+11 1
+.names A70 A71 A122
+1- 1
+-1 1
+.names A70 A87 A121
+1- 1
+-1 1
+.names A87 A123 A120
+00 1
+.names A87 A124 A119
+1- 1
+-1 1
+.names A70 A71 A118
+10 1
+.names A70 A71 A117
+01 1
+.names A80 A113 A116
+1- 1
+-1 1
+.names A80 A114 A115
+00 1
+.names A80 A113 A114
+11 1
+.names A69 A94 A113
+0- 1
+-0 1
+.names A70 A80 A112
+01 1
+.names A70 A80 A111
+10 1
+.names A72 A109 A110
+11 1
+.names A128 A127 A109
+1- 1
+-1 1
+.names A72 A107 A108
+01 1
+.names A130 A129 A107
+1- 1
+-1 1
+.names A72 A105 A106
+1- 1
+-1 1
+.names A126 A125 A105
+1- 1
+-1 1
+.names A84 A94 A104
+00 1
+.names A84 A94 A103
+11 1
+.names A84 A94 A102
+0- 1
+-1 1
+.names A68 A69 A101
+10 1
+.names A68 A69 A100
+01 1
+.names A121 A122 A99
+10 1
+.names A121 A122 A98
+01 1
+.names A120 A119 A97
+0- 1
+-0 1
+.names A112 A111 A96
+1- 1
+-1 1
+.names A118 A117 A95
+1- 1
+-1 1
+.names A108 A110 A94
+1- 1
+-1 1
+.names A115 A116 A93
+0- 1
+-0 1
+.names A68 A69 A92
+10 1
+.names A82 A94 A91
+10 1
+.names A82 A94 A90
+01 1
+.names A80 A106 A89
+01 1
+.names A104 A103 A88
+1- 1
+-1 1
+.names A101 A100 A87
+1- 1
+-1 1
+.names A69 A102 A86
+1- 1
+-1 1
+.names A94 A97 A85
+11 1
+.names A99 A98 A84
+1- 1
+-1 1
+.names A94 A93 A83
+11 1
+.names A96 A95 A82
+11 1
+.names A91 A90 A81
+1- 1
+-1 1
+.names A69 A92 A80
+1- 1
+-1 1
+.names A80 A89 A79
+1- 1
+-1 1
+.names A87 A88 A78
+11 1
+.names A87 A86 A77
+11 1
+.names A85 A84 A76
+1- 1
+-1 1
+.names A83 A82 A75
+1- 1
+-1 1
+.names A81 A80 A74
+11 1
+.names A745  A73
+1 1
+.names A678  A72
+1 1
+.names A611  A71
+1 1
+.names A544  A70
+1 1
+.names A477  A69
+1 1
+.names A413  A68
+1 1
+.names A744  A1
+1 1
+.names A677  A2
+1 1
+.names A610  A3
+1 1
+.names A543  A4
+1 1
+.names A476  A5
+1 1
+.names A414  A6
+1 1
+.names A14 A13 A7
+11 1
+.names A16 A15 A8
+1- 1
+-1 1
+.names A18 A17 A9
+1- 1
+-1 1
+.names A20 A19 A10
+11 1
+.names A20 A21 A11
+11 1
+.names A13 A22 A12
+1- 1
+-1 1
+.names A2 A25 A13
+1- 1
+-1 1
+.names A24 A23 A14
+1- 1
+-1 1
+.names A29 A28 A15
+11 1
+.names A27 A26 A16
+11 1
+.names A32 A31 A17
+1- 1
+-1 1
+.names A27 A30 A18
+11 1
+.names A2 A35 A19
+1- 1
+-1 1
+.names A34 A33 A20
+1- 1
+-1 1
+.names A37 A36 A21
+1- 1
+-1 1
+.names A13 A39 A22
+01 1
+.names A15 A27 A23
+01 1
+.names A15 A27 A24
+10 1
+.names A1 A2 A25
+10 1
+.names A48 A49 A26
+0- 1
+-0 1
+.names A41 A43 A27
+1- 1
+-1 1
+.names A51 A50 A28
+1- 1
+-1 1
+.names A45 A44 A29
+1- 1
+-1 1
+.names A53 A52 A30
+0- 1
+-0 1
+.names A54 A55 A31
+01 1
+.names A54 A55 A32
+10 1
+.names A1 A2 A33
+01 1
+.names A1 A2 A34
+10 1
+.names A17 A27 A35
+0- 1
+-1 1
+.names A17 A27 A36
+11 1
+.names A17 A27 A37
+00 1
+.names A59 A58 A38
+1- 1
+-1 1
+.names A5 A38 A39
+1- 1
+-1 1
+.names A63 A62 A40
+1- 1
+-1 1
+.names A5 A40 A41
+01 1
+.names A61 A60 A42
+1- 1
+-1 1
+.names A5 A42 A43
+11 1
+.names A3 A13 A44
+10 1
+.names A3 A13 A45
+01 1
+.names A2 A27 A46
+0- 1
+-0 1
+.names A13 A46 A47
+11 1
+.names A13 A47 A48
+00 1
+.names A13 A46 A49
+1- 1
+-1 1
+.names A3 A4 A50
+01 1
+.names A3 A4 A51
+10 1
+.names A20 A57 A52
+1- 1
+-1 1
+.names A20 A56 A53
+00 1
+.names A3 A20 A54
+1- 1
+-1 1
+.names A3 A4 A55
+1- 1
+-1 1
+.names A20 A57 A56
+11 1
+.names A2 A27 A57
+0- 1
+-0 1
+.names A35 A55 A58
+11 1
+.names A35 A55 A59
+00 1
+.names A64 A65 A60
+1- 1
+-1 1
+.names A6 A20 A61
+01 1
+.names A66 A67 A62
+1- 1
+-1 1
+.names A6 A20 A63
+11 1
+.names A6 A20 A64
+00 1
+.names A6 A20 A65
+10 1
+.names A6 A20 A66
+10 1
+.names A6 A20 A67
+01 1
+.end
+
